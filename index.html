@@ -1,69 +1,51 @@
 <!DOCTYPE html>
 <html lang="th">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Chayanid Niyabud (Fern)</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio - Chayanid Niyabud (Fern)</title>
 </head>
 <body>
+  <!-- บรรทัดแรก: Portfolio -->
+  <header>
+    <h1>Portfolio</h1>
+    <h2>Chayanid Niyabud (Fern)</h2>
+  </header>
 
-    <header>
-        <div class="container">
-            <h1>Portfolio</h1>
-            <nav>
-                <ul>
-                    <li><a href="#about">About me</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+  <!-- ส่วนรูปภาพตนเอง -->
+  <section aria-labelledby="photo-title">
+    <h3 id="photo-title">Profile photo</h3>
+    <figure>
+      <!-- เปลี่ยน src ให้เป็นไฟล์รูปของคุณ เช่น images/me.jpg -->
+      <img src="your-photo.jpg" alt="รูปของ Chayanid Niyabud (Fern)">
+      <figcaption>นี่คือรูปโปรไฟล์ของฉัน</figcaption>
+    </figure>
+  </section>
 
-    <main>
-        <section id="about" class="hero">
-            <div class="container">
-                <div class="hero-content">
-                    
-                    <h2 class="name-display">Chayanid Niyabud (Fern)</h2>
+  <!-- About me -->
+  <section aria-labelledby="about-title">
+    <h3 id="about-title">About me</h3>
+    <p>I'm computer science student</p>
+  </section>
 
-                    <img src="profile.jpg" alt=""C:\Users\LOQ\Downloads\502378328_2223420371442316_4872811466908817229_n.jpg"" class="profile-img">
+  <!-- Skills -->
+  <section aria-labelledby="skills-title">
+    <h3 id="skills-title">Skills</h3>
+    <ul>
+      <li>figma</li>
+      <li>python</li>
+    </ul>
+  </section>
 
-                    <h3 class="section-title">About me</h3>
-                    <p class="tagline">I'm Computer Science student.</p>
-                    <a href="#contact" class="btn">Get in Touch</a>
-                </div>
-            </div>
-        </section>
-
-        <section id="skills">
-            <div class="container">
-                <h2 class="section-title">Skills</h2>
-                <div class="skills-list">
-                    <ul>
-                        <li><span class="skill-tag">Figma</span></li>
-                        <li><span class="skill-tag">Python</span></li>
-                        </ul>
-                </div>
-            </div>
-        </section>
-
-        <section id="contact">
-            <div class="container">
-                <h2 class="section-title">Contact</h2>
-                <div class="contact-links">
-                    <p>GitHub: <a href="https://github.com/ChayanidFern" target="_blank">github.com/ChayanidFern</a></p>
-                    </div>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 Chayanid Niyabud. All rights reserved.</p>
-        </div>
-    </footer>
-
+  <!-- Contact -->
+  <section aria-labelledby="contact-title">
+    <h3 id="contact-title">contact</h3>
+    <p>ติดต่อฉันได้ที่อีเมล:
+      <a href="mailto:fern@example.com">fern@example.com</a>
+    </p>
+    <!-- สามารถเพิ่มลิงก์โซเชียลอื่น ๆ ได้ เช่น GitHub, LinkedIn -->
+  </section>
+</body>
+</html>
 </body>
 </html>
